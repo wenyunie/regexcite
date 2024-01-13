@@ -9,6 +9,8 @@ see [stringr](https://stringr.tidyverse.org),
 [rex](https://cran.r-project.org/package=rex), and
 [rematch2](https://cran.r-project.org/package=rematch2).**
 
+**NOTE: This is a toy package created following the guidlines of data science tutorials and only for pratice purpose.**
+
 # regexcite
 
 <!-- badges: start -->
