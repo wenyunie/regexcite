@@ -13,10 +13,6 @@
 #'
 #' y <- "192.168.0.1"
 #' str_split_one(y, pattern = stringr::fixed("."))
-strsplit1 <- function(x, split) {
-  strsplit(x, split = split)[[1]]
-}
-
 str_split_one <- function(string, pattern, n = Inf) {
   stopifnot(is.character(string), length(string) <= 1)
   if (length(string) == 1) {
